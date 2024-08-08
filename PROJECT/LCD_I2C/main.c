@@ -1,0 +1,43 @@
+
+#include "msp430g2553.h"
+#include "i2c_lcd.h"
+#include <string.h>
+#include <stdio.h>
+
+unsigned char do_C[] = {
+    0x1E,
+    0x12,
+    0x12,
+    0x1E,
+    0x00,
+    0x00,
+    0x00,
+    0x00
+};
+
+void main( void )
+{
+  // Stop watchdog timer to prevent time out reset
+  WDTCTL = WDTPW + WDTHOLD;
+  
+  BCSCTL1 = CALBC1_1MHZ;
+  DCOCTL = CALDCO_1MHZ;
+  
+  LCD_Init(0x27, 2, 16);//khoi tao LCD voi giao thuc i2c
+  LCD_backlightOn();//cho phep bat den nen
+  LCD_Clear();//clear mang hinh de xoa ky tu vo dinh
+  
+  LCD_createChar(0,do_C );
+  LCD_SetCursor(0,1);
+  LCD_writeChar(0);
+  
+    
+  
+  while(1){
+    LCD_SetCursor(0,0);//set vi tri lcd (cot, hang)
+    LCD_Print("NHUT KHANH");//in chuoi ra mang hinh
+    __delay_cycles(10000);
+  }
+  
+
+}

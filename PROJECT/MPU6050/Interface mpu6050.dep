@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>4157868703</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\mpu6050_NK.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xtgmath.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\List\Interface mpu6050.map</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Interface mpu6050.d43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\math.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpu6050_NK.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpu6050_NK.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C_NK.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C_NK.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ymath.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Interface mpu6050.ulp</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART.r43</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\Interface mpu6050.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\UART.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\UART.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART.pbi</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$PROJ_DIR$\mpu6050_NK.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\I2C_NK.pbi</file>
+            <file>$PROJ_DIR$\I2C_NK.h</file>
+            <file>$PROJ_DIR$\mpu6050_NK.h</file>
+            <file>$PROJ_DIR$\I2C_NK.c</file>
+            <file>$PROJ_DIR$\main.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 5 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Interface mpu6050.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 37 16 20 12 26 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\UART.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 10 11 35</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 10 8 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 35 2 15 19 32 43 6 10 8 21 41 40 4 9 11 25 23 30 27 14 1</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 10 8 41 43 40 15 2 32 34 27 14 30 23 25 19 4 6 21 1 9 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\mpu6050_NK.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 8 35 2 32 25 41 6 10 27 43 40 4 15 14 21 11 34 23 1 19</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 10 8 43 41 40 35 4 2 32 34 27 14 30 23 25 6 21 1 15 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\I2C_NK.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 10 40 11</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 40 11 10 8</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
